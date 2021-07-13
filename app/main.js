@@ -1,7 +1,8 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import GameController from "./Controllers/GameController";
 
+console.log(1)
 class App {
-  valuesController = new ValuesController();
+  gameController = new GameController()
 }
 
 window["app"] = new App();
